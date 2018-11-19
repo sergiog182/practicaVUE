@@ -13,7 +13,7 @@
 
 <script>
     export default {
-        name: "suma", 
+        name: "experiencia", 
         data: function() {
             return {
                 experienceYears: 0

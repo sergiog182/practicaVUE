@@ -22,7 +22,7 @@
 
 <script>
     export default {
-        name: "suma", 
+        name: "validaciones", 
         data: function() {
             return {
                 nombres: "",

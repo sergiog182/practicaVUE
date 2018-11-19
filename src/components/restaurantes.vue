@@ -18,7 +18,7 @@
 
 <script>
     export default {
-        name: "suma", 
+        name: "restaurantes", 
         data: function() {
             return {
                 restaurants: [
