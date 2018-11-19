@@ -69,7 +69,8 @@ export default {
     border-radius: 5px;
     padding: 10px;
     box-sizing: content-box;
-    height: -webkit-fill-available;
+    height: 150px;
+    overflow-y: auto;
   }
 
   .contenedor-secundario
