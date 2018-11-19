@@ -5,7 +5,7 @@
         </h1>
         <div class="contenedor-principal">
             <ul>
-				<li v-for="(restaurant, index) in restaurants">
+				<li :key="index" v-for="(restaurant, index) in restaurants">
 					{{ restaurant }}
 					<button type="button" @click="eliminatRestaruante(index)"> - </button>
 				</li>
