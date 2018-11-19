@@ -1,10 +1,8 @@
 <template>
     <div class="contenedor-componente">
-        <p>
-            <h1>
-                Componente Bienvenido
-            </h1>
-        </p>
+        <h1>
+            Componente Bienvenido
+        </h1>
         <div class="contenedor-principal">
             <div id="formulario" v-if="!formSubmitted">
                 <!-- v-on se puede reemplazar por @ -->

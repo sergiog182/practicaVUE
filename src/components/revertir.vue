@@ -1,10 +1,8 @@
 <template>
     <div class="contenedor-componente">
-        <p>
-            <h1>
-                Componente Revertir
-            </h1>
-        </p>
+        <h1>
+            Componente Revertir
+        </h1>
         <div class="contenedor-principal">
             <div class="contenedor-secundario">
                 <p> bienvenido, {{ name }} </p>

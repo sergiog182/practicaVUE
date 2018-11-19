@@ -1,10 +1,8 @@
 <template>
     <div class="contenedor-componente">
-        <p>
-            <h1>
-                Componente Validaciones
-            </h1>
-        </p>
+        <h1>
+            Componente Validaciones
+        </h1>
         <div class="contenedor-principal">
             <form @submit.prevent="validarDatos">
 				Nombres: <input type="text" id="nombres" class="campo-texto" v-model="nombres"/>

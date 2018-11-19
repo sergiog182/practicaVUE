@@ -1,10 +1,8 @@
 <template>
     <div class="contenedor-componente">
-        <p>
-            <h1>
-                Componente Experiencia
-            </h1>
-        </p>
+        <h1>
+            Componente Experiencia
+        </h1>
         <div class="contenedor-principal">
             A&ntilde;os de experiencia: <input type="number" v-model="experienceYears" disabled/> 
 			&nbsp; <button type="button" @click="addYear">+</button>

@@ -1,10 +1,8 @@
 <template>
     <div class="contenedor-componente">
-        <p>
-            <h1>
-                Componente Restaurantes
-            </h1>
-        </p>
+        <h1>
+            Componente Restaurantes
+        </h1>
         <div class="contenedor-principal">
             <ul>
 				<li v-for="(restaurant, index) in restaurants">

@@ -1,10 +1,8 @@
 <template>
     <div class="contenedor-componente">
-        <p>
-            <h1>
-                Componente Suma
-            </h1>
-        </p>
+        <h1>
+            Componente Suma
+        </h1>
         <div class="contenedor-principal">
             Primero: <input type="number" id="primero" class="campo-texto" v-model="primero"/>
             <br>
